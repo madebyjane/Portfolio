@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+}
+
+.logo {
+    float: left;
+}
+
+.col-lg-6 {
+    margin-top: 15px;
+}
+
+.menu {
+    width: 80px;
+    height: 20px;
+    display: inline;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 140px;
+}
+
+nav a {
+    color:#000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;   
+}
+
+nav a:hover {
+    color: #00D3FF;
+    text-decoration: none;
+}
+
+
+
+main ul {
+    text-decoration: none;
+}
+
+main li {
+    flex-basis: 500px;
+    text-decoration: none;
+    display: flex;
+}
+
+
+
